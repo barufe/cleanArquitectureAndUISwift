@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DB46102B75BAAC0008BF30 /* CoinGekoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB460F2B75BAAC0008BF30 /* CoinGekoSwiftUIApp.swift */; };
+		07DB46122B75BAAC0008BF30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB46112B75BAAC0008BF30 /* ContentView.swift */; };
+		07DB46142B75BAAE0008BF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DB46132B75BAAE0008BF30 /* Assets.xcassets */; };
+		07DB46172B75BAAE0008BF30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DB46162B75BAAE0008BF30 /* Preview Assets.xcassets */; };
+		07DB46212B75BAAE0008BF30 /* CoinGekoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB46202B75BAAE0008BF30 /* CoinGekoSwiftUITests.swift */; };
+		07DB462B2B75BAAF0008BF30 /* CoinGekoSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB462A2B75BAAF0008BF30 /* CoinGekoSwiftUIUITests.swift */; };
+		07DB462D2B75BAAF0008BF30 /* CoinGekoSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DB462C2B75BAAF0008BF30 /* CoinGekoSwiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DB461D2B75BAAE0008BF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DB46042B75BAAB0008BF30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DB460B2B75BAAC0008BF30;
+			remoteInfo = CoinGekoSwiftUI;
+		};
+		07DB46272B75BAAE0008BF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DB46042B75BAAB0008BF30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DB460B2B75BAAC0008BF30;
+			remoteInfo = CoinGekoSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DB460C2B75BAAC0008BF30 /* CoinGekoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinGekoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DB460F2B75BAAC0008BF30 /* CoinGekoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoSwiftUIApp.swift; sourceTree = "<group>"; };
+		07DB46112B75BAAC0008BF30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07DB46132B75BAAE0008BF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07DB46162B75BAAE0008BF30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07DB461C2B75BAAE0008BF30 /* CoinGekoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinGekoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DB46202B75BAAE0008BF30 /* CoinGekoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoSwiftUITests.swift; sourceTree = "<group>"; };
+		07DB46262B75BAAE0008BF30 /* CoinGekoSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinGekoSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DB462A2B75BAAF0008BF30 /* CoinGekoSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoSwiftUIUITests.swift; sourceTree = "<group>"; };
+		07DB462C2B75BAAF0008BF30 /* CoinGekoSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGekoSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DB46092B75BAAC0008BF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB46192B75BAAE0008BF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB46232B75BAAE0008BF30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DB46032B75BAAB0008BF30 = {
+			isa = PBXGroup;
+			children = (
+				07DB460E2B75BAAC0008BF30 /* CoinGekoSwiftUI */,
+				07DB461F2B75BAAE0008BF30 /* CoinGekoSwiftUITests */,
+				07DB46292B75BAAE0008BF30 /* CoinGekoSwiftUIUITests */,
+				07DB460D2B75BAAC0008BF30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DB460D2B75BAAC0008BF30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DB460C2B75BAAC0008BF30 /* CoinGekoSwiftUI.app */,
+				07DB461C2B75BAAE0008BF30 /* CoinGekoSwiftUITests.xctest */,
+				07DB46262B75BAAE0008BF30 /* CoinGekoSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DB460E2B75BAAC0008BF30 /* CoinGekoSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				07DB460F2B75BAAC0008BF30 /* CoinGekoSwiftUIApp.swift */,
+				07DB46112B75BAAC0008BF30 /* ContentView.swift */,
+				07DB46132B75BAAE0008BF30 /* Assets.xcassets */,
+				07DB46152B75BAAE0008BF30 /* Preview Content */,
+			);
+			path = CoinGekoSwiftUI;
+			sourceTree = "<group>";
+		};
+		07DB46152B75BAAE0008BF30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07DB46162B75BAAE0008BF30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07DB461F2B75BAAE0008BF30 /* CoinGekoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07DB46202B75BAAE0008BF30 /* CoinGekoSwiftUITests.swift */,
+			);
+			path = CoinGekoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		07DB46292B75BAAE0008BF30 /* CoinGekoSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07DB462A2B75BAAF0008BF30 /* CoinGekoSwiftUIUITests.swift */,
+				07DB462C2B75BAAF0008BF30 /* CoinGekoSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = CoinGekoSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DB460B2B75BAAC0008BF30 /* CoinGekoSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DB46302B75BAAF0008BF30 /* Build configuration list for PBXNativeTarget "CoinGekoSwiftUI" */;
+			buildPhases = (
+				07DB46082B75BAAC0008BF30 /* Sources */,
+				07DB46092B75BAAC0008BF30 /* Frameworks */,
+				07DB460A2B75BAAC0008BF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinGekoSwiftUI;
+			productName = CoinGekoSwiftUI;
+			productReference = 07DB460C2B75BAAC0008BF30 /* CoinGekoSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07DB461B2B75BAAE0008BF30 /* CoinGekoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DB46332B75BAAF0008BF30 /* Build configuration list for PBXNativeTarget "CoinGekoSwiftUITests" */;
+			buildPhases = (
+				07DB46182B75BAAE0008BF30 /* Sources */,
+				07DB46192B75BAAE0008BF30 /* Frameworks */,
+				07DB461A2B75BAAE0008BF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DB461E2B75BAAE0008BF30 /* PBXTargetDependency */,
+			);
+			name = CoinGekoSwiftUITests;
+			productName = CoinGekoSwiftUITests;
+			productReference = 07DB461C2B75BAAE0008BF30 /* CoinGekoSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07DB46252B75BAAE0008BF30 /* CoinGekoSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DB46362B75BAAF0008BF30 /* Build configuration list for PBXNativeTarget "CoinGekoSwiftUIUITests" */;
+			buildPhases = (
+				07DB46222B75BAAE0008BF30 /* Sources */,
+				07DB46232B75BAAE0008BF30 /* Frameworks */,
+				07DB46242B75BAAE0008BF30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DB46282B75BAAE0008BF30 /* PBXTargetDependency */,
+			);
+			name = CoinGekoSwiftUIUITests;
+			productName = CoinGekoSwiftUIUITests;
+			productReference = 07DB46262B75BAAE0008BF30 /* CoinGekoSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DB46042B75BAAB0008BF30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					07DB460B2B75BAAC0008BF30 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					07DB461B2B75BAAE0008BF30 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 07DB460B2B75BAAC0008BF30;
+					};
+					07DB46252B75BAAE0008BF30 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 07DB460B2B75BAAC0008BF30;
+					};
+				};
+			};
+			buildConfigurationList = 07DB46072B75BAAB0008BF30 /* Build configuration list for PBXProject "CoinGekoSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07DB46032B75BAAB0008BF30;
+			productRefGroup = 07DB460D2B75BAAC0008BF30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DB460B2B75BAAC0008BF30 /* CoinGekoSwiftUI */,
+				07DB461B2B75BAAE0008BF30 /* CoinGekoSwiftUITests */,
+				07DB46252B75BAAE0008BF30 /* CoinGekoSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DB460A2B75BAAC0008BF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB46172B75BAAE0008BF30 /* Preview Assets.xcassets in Resources */,
+				07DB46142B75BAAE0008BF30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB461A2B75BAAE0008BF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB46242B75BAAE0008BF30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DB46082B75BAAC0008BF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB46122B75BAAC0008BF30 /* ContentView.swift in Sources */,
+				07DB46102B75BAAC0008BF30 /* CoinGekoSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB46182B75BAAE0008BF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB46212B75BAAE0008BF30 /* CoinGekoSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DB46222B75BAAE0008BF30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB462B2B75BAAF0008BF30 /* CoinGekoSwiftUIUITests.swift in Sources */,
+				07DB462D2B75BAAF0008BF30 /* CoinGekoSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DB461E2B75BAAE0008BF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DB460B2B75BAAC0008BF30 /* CoinGekoSwiftUI */;
+			targetProxy = 07DB461D2B75BAAE0008BF30 /* PBXContainerItemProxy */;
+		};
+		07DB46282B75BAAE0008BF30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DB460B2B75BAAC0008BF30 /* CoinGekoSwiftUI */;
+			targetProxy = 07DB46272B75BAAE0008BF30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07DB462E2B75BAAF0008BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07DB462F2B75BAAF0008BF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07DB46312B75BAAF0008BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinGekoSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = AFSL2K239Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.CoinGekoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07DB46322B75BAAF0008BF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoinGekoSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = AFSL2K239Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.CoinGekoSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07DB46342B75BAAF0008BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFSL2K239Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.CoinGekoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinGekoSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinGekoSwiftUI";
+			};
+			name = Debug;
+		};
+		07DB46352B75BAAF0008BF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFSL2K239Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.CoinGekoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinGekoSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinGekoSwiftUI";
+			};
+			name = Release;
+		};
+		07DB46372B75BAAF0008BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFSL2K239Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.CoinGekoSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinGekoSwiftUI;
+			};
+			name = Debug;
+		};
+		07DB46382B75BAAF0008BF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFSL2K239Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ba.CoinGekoSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinGekoSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DB46072B75BAAB0008BF30 /* Build configuration list for PBXProject "CoinGekoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB462E2B75BAAF0008BF30 /* Debug */,
+				07DB462F2B75BAAF0008BF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DB46302B75BAAF0008BF30 /* Build configuration list for PBXNativeTarget "CoinGekoSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB46312B75BAAF0008BF30 /* Debug */,
+				07DB46322B75BAAF0008BF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DB46332B75BAAF0008BF30 /* Build configuration list for PBXNativeTarget "CoinGekoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB46342B75BAAF0008BF30 /* Debug */,
+				07DB46352B75BAAF0008BF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DB46362B75BAAF0008BF30 /* Build configuration list for PBXNativeTarget "CoinGekoSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DB46372B75BAAF0008BF30 /* Debug */,
+				07DB46382B75BAAF0008BF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DB46042B75BAAB0008BF30 /* Project object */;
+}
