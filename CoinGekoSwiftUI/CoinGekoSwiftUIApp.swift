@@ -11,7 +11,7 @@ import SwiftUI
 struct CoinGekoSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GlobalCryptoListFactory.create()
         }
     }
 }
