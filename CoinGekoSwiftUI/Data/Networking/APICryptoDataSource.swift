@@ -65,36 +65,10 @@ class APICryptoDataSource: ApiDataSourceType{
         guard case .success(let data) = result else {
             return .failure(handleError(error: result.failureValue as? HTTPClientError))
         }
-        
         do {
-            var mutableCryptoList = try JSONDecoder().decode([String: CryptocurrencyPriceInfoDTO].self, from: data)
-            
-            // Iteramos sobre el diccionario para modificar los valores nulos
-            for (key, var cryptoInfo) in mutableCryptoList {
-                if cryptoInfo.usd24HChange == nil {
-                    // Si se encuentra un valor nulo, asignar un valor predeterminado o manejarlo según lo necesario
-                    cryptoInfo.usd24HChange = 0.0 // O asignar otro valor predeterminado según tus necesidades
-                    mutableCryptoList[key] = cryptoInfo
-                }
-                if cryptoInfo.usd == nil {
-                    // Si se encuentra un valor nulo, asignar un valor predeterminado o manejarlo según lo necesario
-                    cryptoInfo.usd = 0.0 // O asignar otro valor predeterminado según tus necesidades
-                    mutableCryptoList[key] = cryptoInfo
-                }
-                if cryptoInfo.usd24HVol == nil {
-                    // Si se encuentra un valor nulo, asignar un valor predeterminado o manejarlo según lo necesario
-                    cryptoInfo.usd24HVol = 0.0 // O asignar otro valor predeterminado según tus necesidades
-                    mutableCryptoList[key] = cryptoInfo
-                }
-                if cryptoInfo.usdMarketCap == nil {
-                    // Si se encuentra un valor nulo, asignar un valor predeterminado o manejarlo según lo necesario
-                    cryptoInfo.usdMarketCap = 0.0 // O asignar otro valor predeterminado según tus necesidades
-                    mutableCryptoList[key] = cryptoInfo
-                }
-            }
+            let mutableCryptoList = try JSONDecoder().decode([String: CryptocurrencyPriceInfoDTO].self, from: data)
             print("DATA 3")
             print(mutableCryptoList)
-
             return .success(mutableCryptoList)
         } catch {
             print("Error decoding JSON: \(error)")

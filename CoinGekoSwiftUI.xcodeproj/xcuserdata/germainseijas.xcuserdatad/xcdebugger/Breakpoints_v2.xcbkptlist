@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "468BC1A4-A72C-4F18-A027-797B257E5F75"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "getPriceInfoForCryptos(id:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "468BC1A4-A72C-4F18-A027-797B257E5F75 - 8b87c8790c7c8531"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for CoinGekoSwiftUI.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGekoSwiftUI.CryptocurrencyPriceInfoDTO&gt;, CoinGekoSwiftUI.HTTPClientError&gt;"
-                  moduleName = "CoinGekoSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "855">
-               </Location>
-               <Location
-                  uuid = "468BC1A4-A72C-4F18-A027-797B257E5F75 - 8b87c8790c7c8531"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for CoinGekoSwiftUI.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGekoSwiftUI.CryptocurrencyPriceInfoDTO&gt;, CoinGekoSwiftUI.HTTPClientError&gt;"
-                  moduleName = "CoinGekoSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "70"
-                  endingLineNumber = "70"
-                  offsetFromSymbolStart = "849">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -62,10 +14,57 @@
             filePath = "CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "getPriceInfoForCryptos(id:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c84cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGekoSwiftUI.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGekoSwiftUI.CryptocurrencyPriceInfoDTO&gt;, CoinGekoSwiftUI.HTTPClientError&gt;"
+                  moduleName = "CoinGekoSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1396">
+               </Location>
+               <Location
+                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c8494"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGekoSwiftUI.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGekoSwiftUI.CryptocurrencyPriceInfoDTO&gt;, CoinGekoSwiftUI.HTTPClientError&gt;"
+                  moduleName = "CoinGekoSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "2712">
+               </Location>
+               <Location
+                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c8494"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CoinGekoSwiftUI.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGekoSwiftUI.CryptocurrencyPriceInfoDTO&gt;, CoinGekoSwiftUI.HTTPClientError&gt;"
+                  moduleName = "CoinGekoSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "2723">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

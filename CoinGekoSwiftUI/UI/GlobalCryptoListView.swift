@@ -18,13 +18,25 @@ struct GlobalCryptoListView: View {
     
     var body: some View {
         VStack{
-            List {
-                ForEach(viewModel.cryptos, id: \.id) { crypto in
-                    Text(crypto.name)
+            if viewModel.showLoadingSpinner{
+                ProgressView()
+                    .progressViewStyle(.circular)
+            }else{
+                if viewModel.showErrorMessage == nil {
+                    List {
+                        ForEach(viewModel.cryptos, id: \.id) { crypto in
+                            CryptoListItemView(item: crypto)
+                            }
+                        }
+                    }
+                else{
+                    Text(viewModel.showErrorMessage!)
+                    }
                 }
             }.onAppear {
                 viewModel.onAppear()
+            }.refreshable{
+                viewModel.onAppear()
             }
-        }
     }
 }

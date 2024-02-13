@@ -22,10 +22,10 @@ class CryptocurrencyDomainMapper {
     func map(cryptocurrencyBuilderList:[CryptocurrencyBuilder], priceInfo: [String: CryptocurrencyPriceInfoDTO]) -> [Cryptocurrency]{
         cryptocurrencyBuilderList.forEach{ cryptocurrencyBuilder in
             if let priceInfo = priceInfo[cryptocurrencyBuilder.id]{
-                cryptocurrencyBuilder.price = priceInfo.usd
-                cryptocurrencyBuilder.volume24 = priceInfo.usd24HVol
-                cryptocurrencyBuilder.price24h = priceInfo.usd24HChange
-                cryptocurrencyBuilder.marketCap = priceInfo.usdMarketCap
+                cryptocurrencyBuilder.price = priceInfo.price
+                cryptocurrencyBuilder.volume24 = priceInfo.volume24
+                cryptocurrencyBuilder.price24h = priceInfo.price24h
+                cryptocurrencyBuilder.marketCap = priceInfo.marketCap
                 
             }
         }

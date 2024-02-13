@@ -17,3 +17,14 @@ extension Result {
         }
     }
 }
+extension Double {
+    func toCurrency() -> Double?{
+        let formatter = NumberFormatter()
+        formatter.minimumFractionDigits = 2
+        formatter.maximumFractionDigits = 2
+        
+        guard let formattedString = formatter.string(from: self as NSNumber),
+              let formattedDouble = Double(formattedString) else {return nil}
+        return formattedDouble
+    }
+}

@@ -6,45 +6,40 @@
 //
 
 import Foundation
-struct CryptoPresentableItem {
-    let id: String
-    let name: String
-    let symbol: String
-    let price: String
-    let price24h: String
-    let volume24: String
-    let marketCap: String
-    
-    init(domainModel: Cryptocurrency){
-        self.id = domainModel.id
-        self.name = domainModel.name
-        self.symbol = domainModel.symbol
-        self.price = "\(domainModel.price) $"
-        self.price24h = domainModel.volume24 != nil ? "\(domainModel.price24h!) $" : "-"
-        self.volume24 = domainModel.volume24 != nil ? "\(domainModel.volume24!) $" : "-"
-        self.marketCap = "\(domainModel.marketCap) $"
-    }
-}
-
 
 class GlobalCryptoListViewModel: ObservableObject {
     private let getGlobalCryptoList: GetGlobalCryptoListType
+    private let errorMapper: CryptocurrencyPresentableErrorMapper
     @Published var cryptos : [CryptoPresentableItem] = []
+    @Published var showLoadingSpinner: Bool = false
+    @Published var showErrorMessage: String?
     
-    init(getGlobalCryptoList: GetGlobalCryptoListType){
+    init(getGlobalCryptoList: GetGlobalCryptoListType, errorMapper: CryptocurrencyPresentableErrorMapper){
         self.getGlobalCryptoList = getGlobalCryptoList
+        self.errorMapper = errorMapper
     }
     func onAppear(){
+        showLoadingSpinner = true
         Task {
             let result = await getGlobalCryptoList.execute()
-            let cryptos = try? result.get().map {CryptoPresentableItem(domainModel: $0)}
+            guard case .success(let cryptos) = result else {
+                handleError(error: result.failureValue as? CryptocurrencyDomainError)
+                    return
+            }
+                let cryptosPresentable = cryptos.map {CryptoPresentableItem(domainModel: $0)}
                 Task { @MainActor in
-                    guard let cryptos = cryptos else {
-                        return
-                    }
-                    self.cryptos = cryptos
-                    print(cryptos)
+                showLoadingSpinner = false
+                self.cryptos = cryptosPresentable
+                    
             }
         }
     }
+    private func handleError(error: CryptocurrencyDomainError?){
+        Task { @MainActor in
+            showLoadingSpinner = false
+            showErrorMessage = errorMapper.map(error: error)
+        }
+    }
 }
+
+

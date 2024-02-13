@@ -23,15 +23,15 @@ class CryptocurrencyBuilder {
     }
     
     func build() -> Cryptocurrency? {
-        guard let price = price,
-              let marketCap = marketCap else {return nil}
+        guard let price = price?.toCurrency(),
+              let marketCap = marketCap?.toCurrency() else {return nil}
         
         return Cryptocurrency(id: id,
                               name: name,
                               symbol: symbol,
                               price: price,
-                              price24h: price24h,
-                              volume24: volume24,
+                              price24h: price24h?.toCurrency(),
+                              volume24: volume24?.toCurrency(),
                               marketCap: marketCap)
     }
 }

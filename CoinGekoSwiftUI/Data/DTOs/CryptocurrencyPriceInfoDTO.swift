@@ -8,12 +8,18 @@
 import Foundation
 
 struct CryptocurrencyPriceInfoDTO: Codable {
-    var usd, usdMarketCap, usd24HVol, usd24HChange: Double?
+    var price, volume24, price24h, marketCap: Double?
 
+    init(price: Double? = 0.0, volume24: Double? = 0.0, price24h: Double? = 0.0, marketCap: Double? = 0.0) {
+        self.price = price
+        self.volume24 = volume24
+        self.price24h = price24h
+        self.marketCap = marketCap
+    }
     enum CodingKeys: String, CodingKey {
-        case usd
-        case usdMarketCap = "usd_market_cap"
-        case usd24HVol = "usd_24h_vol"
-        case usd24HChange = "usd_24h_change"
+        case price = "usd"
+        case marketCap = "usd_market_cap"
+        case volume24 = "usd_24h_vol"
+        case price24h = "usd_24h_change"
     }
 }
