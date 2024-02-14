@@ -12,3 +12,4 @@ protocol ApiDataSourceType {
     func getCryptoList() async -> Result<[CryptocurrencyBasicDTO], HTTPClientError>
     func getPriceInfoForCryptos(id: [String]) async -> Result<[String: CryptocurrencyPriceInfoDTO], HTTPClientError>
 }
+

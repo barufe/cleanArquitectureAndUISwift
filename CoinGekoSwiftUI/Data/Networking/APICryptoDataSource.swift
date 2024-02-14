@@ -82,11 +82,3 @@ private func handleError(error: HTTPClientError?) -> HTTPClientError{
     }
     return error
 }
-
-
-
-
-
-
-
- 
