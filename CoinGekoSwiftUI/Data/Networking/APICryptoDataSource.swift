@@ -25,8 +25,6 @@ class APICryptoDataSource: ApiDataSourceType{
         guard let symbolList = try? JSONDecoder().decode(CryptoCurrencyGlobalInfoDTO.self, from: data) else {
             return .failure(.parsingError)
         }
-        print("DataSource")
-        print(symbolList.data.cryptocurrency)
         return .success(symbolList.data.cryptocurrency.map{
             $0.key
         })
@@ -43,8 +41,6 @@ class APICryptoDataSource: ApiDataSourceType{
         guard let cryptoList = try? JSONDecoder().decode([CryptocurrencyBasicDTO].self, from: data) else {
             return .failure(.parsingError)
         }
-        print("DataSource2")
-        print(cryptoList[0].id)
         return .success(cryptoList)
     }
     
@@ -67,8 +63,6 @@ class APICryptoDataSource: ApiDataSourceType{
         }
         do {
             let mutableCryptoList = try JSONDecoder().decode([String: CryptocurrencyPriceInfoDTO].self, from: data)
-            print("DATA 3")
-            print(mutableCryptoList)
             return .success(mutableCryptoList)
         } catch {
             print("Error decoding JSON: \(error)")
@@ -82,3 +76,5 @@ private func handleError(error: HTTPClientError?) -> HTTPClientError{
     }
     return error
 }
+
+extension APICryptoDataSource: ApiCryptoCurrencyBasicInfoDataSourceType{}

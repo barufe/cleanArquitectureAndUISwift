@@ -23,8 +23,6 @@ class CrytocurrencyRepository : GlobalCryptoListRepsitoryType {
         let symbolListResult = await apiDatasource.getGlobalCryptoSymbolList()
         let cryptoListResult = await apiDatasource.getCryptoList()
         
-        
-        
         guard case .success(let symbolList) = symbolListResult else {
             return .failure(errorMapper.map(error: symbolListResult.failureValue as? HTTPClientError))
         }

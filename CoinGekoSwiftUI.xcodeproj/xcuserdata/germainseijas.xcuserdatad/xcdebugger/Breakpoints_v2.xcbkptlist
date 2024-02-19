@@ -14,13 +14,13 @@
             filePath = "CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "getPriceInfoForCryptos(id:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c84cb"
+                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c85d2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "76"
-                  endingLineNumber = "76"
-                  offsetFromSymbolStart = "1396">
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "691">
                </Location>
                <Location
-                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c8494"
+                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c85d2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,24 +45,9 @@
                   urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "75"
-                  endingLineNumber = "75"
-                  offsetFromSymbolStart = "2712">
-               </Location>
-               <Location
-                  uuid = "736DDFB1-9DD6-4C89-A8DD-FFE2797FE2A2 - 8b87c8790c7c8494"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for CoinGekoSwiftUI.APICryptoDataSource.getPriceInfoForCryptos(id: Swift.Array&lt;Swift.String&gt;) async -&gt; Swift.Result&lt;Swift.Dictionary&lt;Swift.String, CoinGekoSwiftUI.CryptocurrencyPriceInfoDTO&gt;, CoinGekoSwiftUI.HTTPClientError&gt;"
-                  moduleName = "CoinGekoSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/germainseijas/Desktop/SwiftPractice/CoinGekoSwiftUI/CoinGekoSwiftUI/Data/Networking/APICryptoDataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "75"
-                  endingLineNumber = "75"
-                  offsetFromSymbolStart = "2723">
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2288">
                </Location>
             </Locations>
          </BreakpointContent>

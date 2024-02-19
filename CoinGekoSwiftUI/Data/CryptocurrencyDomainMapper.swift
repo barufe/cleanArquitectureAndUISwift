@@ -26,10 +26,8 @@ class CryptocurrencyDomainMapper {
                 cryptocurrencyBuilder.volume24 = priceInfo.volume24
                 cryptocurrencyBuilder.price24h = priceInfo.price24h
                 cryptocurrencyBuilder.marketCap = priceInfo.marketCap
-                
             }
         }
-        
         return cryptocurrencyBuilderList.compactMap{$0.build()}
     }
 }

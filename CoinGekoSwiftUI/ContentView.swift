@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    let globalCryptoList: GlobalCryptoListView
+    let cryptoListView: CryptoListView
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            globalCryptoList.tabItem {
+                Label("Global", systemImage: "list.dash")
+            }
+            cryptoListView.tabItem {
+                Label("CryptoList", systemImage: "list.dash")
+            }
         }
         .padding()
     }
-}
-
-#Preview {
-    ContentView()
 }

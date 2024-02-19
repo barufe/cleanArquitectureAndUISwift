@@ -53,3 +53,27 @@ THEN veo el historial de precios para ese rango de días (30 días, 90 días, 18
 -Use cases
     Get Price History
     
+
+## Mostrar lista de todas las cryptomonedas 
+
+Como usuario, quiero poder consultar la lista de todas las cryto disponibles en orden alfabético.
+Como usuario, quiero poder buscar la cryto que me interese introduciendo el nombre o el simbolo. 
+
+GIVEN Tengo la app iniciada
+WHEN Accedo a la vista con todas las cryptos
+THEN Veo un listado de todas las crypto disponiblesy su simbolo
+
+GIVEN Estoy en la vista de todas las crytos
+WHEN Introduzco un texto en la busqueda
+THEN Veo un listado de todas las cryptos disponibles cuyo nombre o simbolo contienen el texto introducido.
+
+- Entities
+    CryptocurrencyBasicInfo
+        id
+        name
+        symbol
+        
+- Use Cases 
+    Get cryto list
+    Search crypto by name or symbol
+    =
