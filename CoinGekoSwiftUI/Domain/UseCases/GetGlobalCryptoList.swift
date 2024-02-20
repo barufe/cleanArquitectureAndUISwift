@@ -21,7 +21,7 @@ class GetGlobalCryptoList: GetGlobalCryptoListType {
         let result = await repository.getGlobalCryptoList()
         guard let cryptoList = try? result.get() else {
             guard case .failure(let error) = result else {
-                return .failure(.generic)
+                return .failure(.generics)
             }
             return .failure(error)
         }
