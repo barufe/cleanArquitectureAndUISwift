@@ -10,7 +10,7 @@ import Foundation
 class CryptocurrencyDomainErrorMapper {
     func map(error: HTTPClientError?) -> CryptocurrencyDomainError{
         guard error == .tooManyRequests else {
-            return .generic
+            return .generics
         }
         return .toManyRequests
     }
